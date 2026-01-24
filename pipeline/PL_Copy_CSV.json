@@ -1,0 +1,7 @@
+{
+	"name": "PL_Copy_CSV",
+	"properties": {
+		"description": "This pipeline copies CSV data from input Blob container to output container.\nCreated as a beginner Azure Data Factory example.\n",
+		"annotations": []
+	}
+}
