@@ -1,0 +1,35 @@
+{
+  "pipeline_name": "CSV_Data_Processing_Pipeline",
+  "description": "Basic ADF Python pipeline for CSV data processing",
+  "input_path": "data/input.csv",
+  "output_path": "data/output.csv",
+  "log_path": "logs",
+  "schedule": "daily",
+  "activities": [
+    {
+      "name": "ReadCSV",
+      "type": "PythonScript",
+      "description": "Read CSV data from source"
+    },
+    {
+      "name": "CleanData",
+      "type": "PythonScript",
+      "description": "Remove duplicates and handle missing values"
+    },
+    {
+      "name": "TransformData",
+      "type": "PythonScript",
+      "description": "Apply business logic transformations"
+    },
+    {
+      "name": "ValidateData",
+      "type": "PythonScript",
+      "description": "Validate data quality"
+    },
+    {
+      "name": "WriteCSV",
+      "type": "PythonScript",
+      "description": "Write processed data to output"
+    }
+  ]
+}

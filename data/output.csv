@@ -1,0 +1,9 @@
+id,name,email,department,salary,hire_date,processed_timestamp
+1,John Smith,john.smith@company.com,Sales,55000,2021-01-15,2026-02-18T21:40:45.643087
+2,Sarah Johnson,sarah.j@company.com,Engineering,75000,2020-03-22,2026-02-18T21:40:45.643087
+3,Mike Davis,mike.davis@company.com,Marketing,52000,2021-06-10,2026-02-18T21:40:45.643087
+4,Emily Brown,emily.b@company.com,Engineering,78000,2019-11-05,2026-02-18T21:40:45.643087
+5,David Wilson,david.w@company.com,Sales,58000,2021-02-18,2026-02-18T21:40:45.643087
+6,Lisa Anderson,lisa.a@company.com,HR,48000,2020-09-12,2026-02-18T21:40:45.643087
+7,James Taylor,james.t@company.com,Finance,62000,2020-07-20,2026-02-18T21:40:45.643087
+8,Jessica Martinez,jess.m@company.com,Engineering,76000,2021-04-01,2026-02-18T21:40:45.643087
